@@ -7,3 +7,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+html {
+  background-attachment: scroll;
+  background-color: #f7ece3;
+  background-image: url("assets/images/ret2.png");
+  background-blend-mode: normal;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
