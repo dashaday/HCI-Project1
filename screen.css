@@ -9,14 +9,16 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 #content {
+  /* background-image: url("assets/images/22px-baseline.png"); */
   background-color: #f7ece3;
   margin: 4.8888em 2.4444em 4.8888em 2.4444em;
   padding: 3vh 3vw 3vh 3vw;
 }
 
 h1 {
+  /* background-color: yellow; */
   font-size: 2.25em; /* 40.5px / 18px  = 2.25 */
-  line-height: 2.177777em; /* line-height is based on 18px size when typeface is involved */
+  line-height: 1.629629629em; /* 66px / 40.5px = line-height is based on 18px size when typeface is involved */
 }
 
 html {
