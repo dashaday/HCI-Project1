@@ -8,10 +8,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
-#content {
+#form {
   /* background-image: url("assets/images/22px-baseline.png"); */
   background-color: #f7ece3;
-  margin: 4.8888em 2.4444em 4.8888em 2.4444em;
+  display: block;
   padding: 3vh 3vw 3vh 3vw;
 }
 
@@ -22,7 +22,7 @@ h1 {
 }
 
 html {
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-color: #f7ece3;
   background-image: url("assets/images/ret2.png");
   background-blend-mode: normal;
@@ -35,4 +35,23 @@ html {
 
 input {
   display: block;
+}
+
+main {
+  /* background-color: black; */
+  margin: auto;
+  padding-top: 4.8888em;
+  width: 70vw;
+}
+
+@media (min-width: 500px) {
+  main {
+    width: 60vw;
+  }
+}
+
+@media (min-width: 800px) {
+  main {
+    width: 50vw;
+  }
 }
