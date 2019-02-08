@@ -1,0 +1,12 @@
+/* Webfont: Adallyn-Bold */@font-face {
+    font-family: 'Adallyn';
+    src: url('Adallyn-Bold.eot'); /* IE9 Compat Modes */
+    src: url('Adallyn-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Adallyn-Bold.woff') format('woff'), /* Modern Browsers */
+         url('Adallyn-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Adallyn-Bold.svg#Adallyn-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

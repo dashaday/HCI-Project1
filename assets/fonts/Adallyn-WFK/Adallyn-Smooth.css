@@ -1,0 +1,12 @@
+/* Webfont: Adallyn-Smooth */@font-face {
+    font-family: 'AdallynSmooth';
+    src: url('Adallyn-Smooth.eot'); /* IE9 Compat Modes */
+    src: url('Adallyn-Smooth.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Adallyn-Smooth.woff') format('woff'), /* Modern Browsers */
+         url('Adallyn-Smooth.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Adallyn-Smooth.svg#Adallyn-Smooth') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
