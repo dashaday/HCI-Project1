@@ -93,7 +93,7 @@ input {
 }
 
 input[type="email"] {
-  background-color: #ec9d0f;
+  background-color: #ffb237;
 }
 
 input[type="email"]:focus {
@@ -101,12 +101,12 @@ input[type="email"]:focus {
 }
 
 input[type="submit"] {
-  background-color: #a3a3a3;
+  background-color: #02e3fd;
   border-radius: 30px;
 }
 
 input[type="submit"]:disabled {
-  background-color: #02e3fd);
+  background-color: #a3a3a3;
 }
 
 @media (min-width: 500px) {
