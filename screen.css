@@ -48,7 +48,7 @@ h1 {
   font-family: Giaza, 'Times New Roman', serif;
   font-size: 4em; /* 72px / 18px  = 2.25 */
   line-height: 1.5277777em; /* 110px / 72px */
-  padding-bottom: 0.25em /* add one line-heading below */;
+  padding-bottom: 0.25em; /* add one line-heading below */
 }
 
 html {
@@ -64,15 +64,49 @@ html {
   line-height: 1.222em; /* 22px / 18px = 1.222... */
 }
 
-input {
-  display: block;
-}
-
 main {
   /* background-color: black; */
   margin: auto;
   padding-top: 4.8888em;
   width: 70vw;
+}
+
+/* Form */
+form {
+  padding-top: 1.2222em;
+}
+
+input,
+label {
+  display: block;
+  box-sizing: border-box;
+}
+
+input {
+  padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
+  margin: 1.2222em 0 1.2222em 0;
+  font-size: inherit;
+  line-height: inherit;
+  border: 0;
+  outline: 0;
+  width: 100%;
+}
+
+input[type="email"] {
+  background-color: #ec9d0f;
+}
+
+input[type="email"]:focus {
+  background-color: #ffffff;
+}
+
+input[type="submit"] {
+  background-color: #a3a3a3;
+  border-radius: 30px;
+}
+
+input[type="submit"]:disabled {
+  background-color: #02e3fd);
 }
 
 @media (min-width: 500px) {
