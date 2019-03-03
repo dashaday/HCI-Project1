@@ -81,7 +81,7 @@ main {
 
 /* Form */
 form {
-  padding-top: 1.2222em;
+  padding-top: 2em;
 }
 
 input,
@@ -102,7 +102,8 @@ input {
 }
 
 input[type="email"] {
-  background-color: #ffb237;
+  background-color: #9aecd3;
+  margin-bottom: 2em;
 }
 
 input[type="email"]:focus {
@@ -110,12 +111,12 @@ input[type="email"]:focus {
 }
 
 input[type="submit"] {
-  background-color: #02e3fd;
-  border-radius: 30px;
+  background-color: #ffc600;
+  /* border-radius: 30px; */
 }
 
 input[type="submit"]:disabled {
-  background-color: #a3a3a3;
+  background-color: #38aa87;
 }
 
 @media (min-width: 500px) {
