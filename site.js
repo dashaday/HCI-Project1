@@ -63,6 +63,14 @@
        }
      });
 
+     email_input.addEventListener('focus',function(){
+       signup_submit.classList.add('white-border');
+     });
+
+     email_input.addEventListener('blur',function(){
+       signup_submit.classList.remove('white-border');
+     });
+
     // End of DOMContentLoaded
     });
 
