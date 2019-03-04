@@ -20,9 +20,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   font-family: Adallyn;
   src: url("assets/fonts/Adallyn-WFK/Adallyn-regular.eot"); /* IE9 Compat Modes */
   src: url("assets/fonts/Adallyn-WFK/Adallyn-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-       url("assets/fonts/Adallyn-WFK/Adallyn-regular.woff") format("woff"), /* Modern Browsers */
-       url("assets/fonts/Adallyn-WFK/Adallyn-regular.ttf") format("truetype"), /* Safari, Android, iOS */
-       url("assets/fonts/Adallyn-WFK/Adallyn-regular.svg#Adallyn-regular") format("svg"); /* Legacy iOS */
+    url("assets/fonts/Adallyn-WFK/Adallyn-regular.woff") format("woff"), /* Modern Browsers */
+    url("assets/fonts/Adallyn-WFK/Adallyn-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("assets/fonts/Adallyn-WFK/Adallyn-regular.svg#Adallyn-regular") format("svg"); /* Legacy iOS */
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -32,11 +32,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 @font-face {
   font-family: Giaza;
   src: url("assets/fonts/Giaza-WFK/giaza_pro-webfont.eot");
-  src: url("assets/fonts/Giaza-WFK/giaza_pro-webfont.eot?#iefix") format("embedded-opentype"),
-       url("assets/fonts/Giaza-WFK/giaza_pro-webfont.woff2") format("woff2"),
-       url("assets/fonts/Giaza-WFK/giaza_pro-webfont.woff") format("woff"),
-       url("assets/fonts/Giaza-WFK/giaza_pro-webfont.ttf") format("truetype"),
-       url("assets/fonts/Giaza-WFK/giaza_pro-webfont.svg#giaza_proregular") format("svg");
+  src: url("assets/fonts/Giaza-WFK/giaza_pro-webfont.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("assets/fonts/Giaza-WFK/giaza_pro-webfont.woff2") format("woff2"), /* Modern Browsers */
+    url("assets/fonts/Giaza-WFK/giaza_pro-webfont.woff") format("woff"), /* Modern Browsers */
+    url("assets/fonts/Giaza-WFK/giaza_pro-webfont.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("assets/fonts/Giaza-WFK/giaza_pro-webfont.svg#giaza_proregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -70,7 +70,7 @@ html {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  font-family: Adallyn, "TImes New Roman", serif;
+  font-family: Adallyn, "Times New Roman", serif;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.222em; /* 22px / 18px = 1.222... */
 }
