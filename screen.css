@@ -39,7 +39,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
          url('assets/fonts/Giaza-WFK/giaza_pro-webfont.svg#giaza_proregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -47,7 +46,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     src: url('assets/fonts/Goku.ttf');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'Modelica' format('opentype');
+    src: url('assets/fonts/BwModelica-Light.otf');
 }
 
 h1 {
@@ -88,12 +91,13 @@ input,
 label {
   display: block;
   box-sizing: border-box;
+  font-family: Modelica, Calibri, Arial, sans-serif;
 }
 
 input {
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   font-size: inherit;
-  font-family: Adallyn, "TImes New Roman", serif;
+  font-family: Adallyn, "Times New Roman", serif;
   line-height: inherit;
   border: 0;
   outline: 0;
@@ -103,6 +107,7 @@ input {
 
 input[type="email"] {
   background-color: #9aecd3;
+  font-family: Modelica, Calibri, Arial, sans-serif;
 }
 
 input[type="email"]:focus {
@@ -112,6 +117,7 @@ input[type="email"]:focus {
 input[type="submit"] {
   background-color: #ffc600;
   cursor: pointer;
+  font-family: Modelica, Calibri, Arial, sans-serif;
   padding: 0.77777em 1.22222em 0.67777em 1.22222em;
 }
 
