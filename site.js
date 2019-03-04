@@ -71,6 +71,14 @@
        signup_submit.classList.remove('white-border');
      });
 
+     // signup_submit.addEventListener('click', function(){
+     //   let form = document.querySelector('#form');
+     //   var alert = document.createElement('small');
+     //   var message = document.createTextNode('You are now subscribed!');
+     //   alert.appendChild(message);
+     //   form.appendChild(alert);
+     // });
+
     // End of DOMContentLoaded
     });
 
