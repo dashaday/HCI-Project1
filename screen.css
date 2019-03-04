@@ -17,46 +17,46 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Webfont: Adallyn-regular */
 @font-face {
-    font-family: 'Adallyn';
-    src: url('assets/fonts/Adallyn-WFK/Adallyn-regular.eot'); /* IE9 Compat Modes */
-    src: url('assets/fonts/Adallyn-WFK/Adallyn-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('assets/fonts/Adallyn-WFK/Adallyn-regular.woff') format('woff'), /* Modern Browsers */
-         url('assets/fonts/Adallyn-WFK/Adallyn-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('assets/fonts/Adallyn-WFK/Adallyn-regular.svg#Adallyn-regular') format('svg'); /* Legacy iOS */
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
+  font-family: Adallyn;
+  src: url("assets/fonts/Adallyn-WFK/Adallyn-regular.eot"); /* IE9 Compat Modes */
+  src: url("assets/fonts/Adallyn-WFK/Adallyn-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("assets/fonts/Adallyn-WFK/Adallyn-regular.woff") format("woff"), /* Modern Browsers */
+       url("assets/fonts/Adallyn-WFK/Adallyn-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+       url("assets/fonts/Adallyn-WFK/Adallyn-regular.svg#Adallyn-regular") format("svg"); /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
 }
 
 /* Webfont: giaza_pro */
 @font-face {
-    font-family: 'Giaza';
-    src: url('assets/fonts/Giaza-WFK/giaza_pro-webfont.eot');
-    src: url('assets/fonts/Giaza-WFK/giaza_pro-webfont.eot?#iefix') format('embedded-opentype'),
-         url('assets/fonts/Giaza-WFK/giaza_pro-webfont.woff2') format('woff2'),
-         url('assets/fonts/Giaza-WFK/giaza_pro-webfont.woff') format('woff'),
-         url('assets/fonts/Giaza-WFK/giaza_pro-webfont.ttf') format('truetype'),
-         url('assets/fonts/Giaza-WFK/giaza_pro-webfont.svg#giaza_proregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: Giaza;
+  src: url("assets/fonts/Giaza-WFK/giaza_pro-webfont.eot");
+  src: url("assets/fonts/Giaza-WFK/giaza_pro-webfont.eot?#iefix") format("embedded-opentype"),
+       url("assets/fonts/Giaza-WFK/giaza_pro-webfont.woff2") format("woff2"),
+       url("assets/fonts/Giaza-WFK/giaza_pro-webfont.woff") format("woff"),
+       url("assets/fonts/Giaza-WFK/giaza_pro-webfont.ttf") format("truetype"),
+       url("assets/fonts/Giaza-WFK/giaza_pro-webfont.svg#giaza_proregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Goku' format('truetype');
-    src: url('assets/fonts/Goku.ttf');
-    font-weight: normal;
-    font-style: normal;
+  font-family: Goku;
+  src: url("assets/fonts/Goku.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Modelica';
-    src: url('assets/fonts/BwModelica-Light.otf') format('opentype');
+  font-family: Modelica;
+  src: url("assets/fonts/BwModelica-Light.otf") format("opentype");
 }
 
 h1 {
   /* background-color: yellow; */
   color: #ba0574;
-  font-family: Goku, 'Times New Roman', serif;
+  font-family: Goku, "Times New Roman", serif;
   font-size: 4em; /* 72px / 18px  = 2.25 */
   line-height: 1.5277777em; /* 110px / 72px */
   padding-bottom: 0.25em; /* add one line-heading below */
