@@ -142,9 +142,9 @@ input[type="submit"]:disabled {
 }
 
 @media (min-width: 700px) {
-  #signup ol{
+  #signup ol {
     display: grid;
-    grid-template-columns: repeat(3, auto)
+    grid-template-columns: repeat(3, auto);
   }
   #email-label {
     grid-column: 1fr;
@@ -155,7 +155,7 @@ input[type="submit"]:disabled {
   #submit-btn {
     grid-column: 3/4;
   }
-  #submit{
+  #submit {
     border: 0.5em solid #9aecd3;
   }
 }
