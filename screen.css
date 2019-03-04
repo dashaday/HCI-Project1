@@ -49,8 +49,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @font-face {
-    font-family: 'Modelica' format('opentype');
-    src: url('assets/fonts/BwModelica-Light.otf');
+    font-family: 'Modelica';
+    src: url('assets/fonts/BwModelica-Light.otf') format('opentype');
 }
 
 h1 {
