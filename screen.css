@@ -111,12 +111,13 @@ input[type="email"]:focus {
 
 input[type="submit"] {
   background-color: #ffc600;
-  /* border-radius: 30px; */
+  cursor: pointer;
   padding: 0.77777em 1.22222em 0.67777em 1.22222em;
 }
 
 input[type="submit"]:disabled {
   background-color: #38aa87;
+  cursor: default;
 }
 
 #submit.white-border {
